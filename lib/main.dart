@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:isolation_test/IsoTest.dart';
+import 'package:isolation_test/IsoTestB.dart';
 
 void main() {
   runApp(const MyApp());
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: isotest(),
+      home: IsoTestB(),
     );
   }
 }
